@@ -17,7 +17,6 @@ const Card = () => {
   return (
     <>
       {starShipData.map((val) => (
-  
         <div className="cards">
           <div className="cards_cnt">
             <h2>{val.name}</h2>
