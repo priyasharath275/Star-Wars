@@ -11,9 +11,7 @@ const Card = () => {
    
     setStarShipData(data.filter(val => val.crew <=10));
    let s1= starShipData.sort((a, b) => Number(a.crew) - Number(b.crew));
-   setSortedArray(s1)
-   console.log(sortedArray)
-   
+   setSortedArray(s1);
   };
   
   useEffect(() => {
