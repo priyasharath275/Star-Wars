@@ -26,11 +26,11 @@ const Card = () => {
           <div className="cards_cnt">
             <h2>{val.name}</h2>
             <div className="cards_row">
-              <div class="cards_column">
+              <div className="cards_column">
                 <h3>Model</h3>
                 <p>{val.model}</p>
               </div>
-              <div class="cards_column">
+              <div className="cards_column">
                 <h3>Number of films</h3>
                 <p>{val.films.length}</p>
               </div>
