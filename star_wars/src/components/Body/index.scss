@@ -1,0 +1,17 @@
+.cards {
+  border: 2px solid white;
+  padding: 30px;
+  margin: 30px;
+  box-sizing: border-box;
+
+  &_row {
+    display: flex;
+  }
+  &_column {
+    flex: 2;
+    padding: 1px;
+  }
+  &_cnt {
+    color: gold;
+  }
+}

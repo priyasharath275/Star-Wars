@@ -1,0 +1,17 @@
+.stars_header{
+ display: block;
+ text-align: center;
+
+ &_cnt{
+   font-style: italic;
+   color:gold
+ }
+    &_imgs{
+        display: block;
+                background-color: gold;
+        text-align: center;
+        width: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
