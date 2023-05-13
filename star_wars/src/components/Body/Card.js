@@ -7,16 +7,16 @@ const Card = () => {
   const getData = async () => {
     let data = await axios("https://swapi.dev/api/starships/?format=json").then(
       (data) => data.data.results
-    );
-    setStarShipData(data);
-
+    ); 
+    setStarShipData(data.filter(val => val.crew <=10));
   };
   useEffect(() => {
     getData();
   });
+
   return (
     <>
-      {starShipData.filter((val) => (
+      {starShipData.map((val) => (
   
         <div className="cards">
           <div className="cards_cnt">
