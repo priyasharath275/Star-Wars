@@ -17,7 +17,7 @@ const Card = () => {
   useEffect(() => {
     getData();
    
-  },[]);
+  });
 
   return (
     <>
