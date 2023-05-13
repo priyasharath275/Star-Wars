@@ -7,6 +7,7 @@ const Header = () => {
     <div  className='stars_header'>
         <img src={stars} className='stars_header_imgs' />
         <Content />
+        <button className='stars_header_btn-ship' >Get Start ship</button>
     </div>
   )
 }

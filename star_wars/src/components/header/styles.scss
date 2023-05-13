@@ -1,6 +1,9 @@
 .stars_header{
  display: block;
  text-align: center;
+ &_btn-ship{
+  background-color: gold;
+}
 
  &_cnt{
    font-style: italic;
